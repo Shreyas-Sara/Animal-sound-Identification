@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Explora&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <center>
+        <h1 class= "heading">Sound Controlled Animals
+          <p>Note: play different sound like Barking, meowing, roaring, mooing.</p>
+        </h1>
+        <br>
+        <br>
+        <button class= "btn btn-primary btn1" onclick="play1()">Record Music</button>
+        <h3 id = "sound">I can Hear: <span id = "sound_ans"></span></h3>
+        <h3 id = "no_times"></h3>
+
+        <img id = "pic"src = "" width="300" height="300">
+        
+      </center>
+      <div class = "footer">Designed by Shreyas Desai</div>
+<script src="main.js"></script>
+  </body>
+</html>
