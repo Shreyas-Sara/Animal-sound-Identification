@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+}
+.heading{
+    background-color: darkgrey;
+    font-family: 'Stick No Bills', sans-serif;
+    margin-top: 50px;
+}
+h3{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    line-height: 3;
+    font-size: 26px;
+    font-family: 'Explora', cursive;
+    font-weight: bold;
+}
+.btn1{
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 18px;
+}
